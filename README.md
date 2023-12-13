@@ -49,7 +49,7 @@ The API will be accessible at `https://blackboard-backend.vercel.app/api/v1`.
 **Example:**
 
 ```bash
-curl https://blackboard-backend.vercel.app/api/v1/drawings
+ https://blackboard-backend.vercel.app/api/v1/drawings
 ```
 
 ### Get Single Drawing
@@ -63,7 +63,7 @@ curl https://blackboard-backend.vercel.app/api/v1/drawings
 **Example:**
 
 ```bash
-curl https://blackboard-backend.vercel.app/api/v1/drawings/123
+ https://blackboard-backend.vercel.app/api/v1/drawings/123
 ```
 
 ### Update Drawing
