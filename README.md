@@ -19,8 +19,8 @@ To use this API, make sure you have [Node.js](https://nodejs.org/) and [npm](htt
 1. Clone the repository:
 
    ```bash
-   git clone <https://github.com/f4faysal/MERN-Interview-Test-BackEnd>
-   cd <https://github.com/f4faysal/MERN-Interview-Test-BackEnd>
+   git clone https://github.com/f4faysal/MERN-Interview-Test-BackEnd
+   cd https://github.com/f4faysal/MERN-Interview-Test-BackEnd
    ```
 
 2. Install dependencies:
@@ -34,7 +34,7 @@ To use this API, make sure you have [Node.js](https://nodejs.org/) and [npm](htt
    yarn dev
    ```
 
-The API will be accessible at `http://localhost:your-port`.
+The API will be accessible at `https://blackboard-backend.vercel.app/api/v1`.
 
 ## Endpoints
 
@@ -49,7 +49,7 @@ The API will be accessible at `http://localhost:your-port`.
 **Example:**
 
 ```bash
-curl http://localhost:your-port/drawings
+curl https://blackboard-backend.vercel.app/api/v1/drawings
 ```
 
 ### Get Single Drawing
@@ -63,7 +63,7 @@ curl http://localhost:your-port/drawings
 **Example:**
 
 ```bash
-curl http://localhost:your-port/drawings/123
+curl https://blackboard-backend.vercel.app/api/v1/drawings/123
 ```
 
 ### Update Drawing
@@ -77,7 +77,7 @@ curl http://localhost:your-port/drawings/123
 **Example:**
 
 ```bash
-curl -X PATCH http://localhost:your-port/drawings/123 -d "updatedData=your-updated-data"
+curl -X PATCH https://blackboard-backend.vercel.app/api/v1/drawings/123 -d "updatedData=your-updated-data"
 ```
 
 ### Delete Drawing
@@ -91,7 +91,7 @@ curl -X PATCH http://localhost:your-port/drawings/123 -d "updatedData=your-updat
 **Example:**
 
 ```bash
-curl -X DELETE http://localhost:your-port/drawings/123
+curl -X DELETE https://blackboard-backend.vercel.app/api/v1/drawings/123
 ```
 
 ### Create Drawing
